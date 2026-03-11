@@ -28,4 +28,9 @@
   .navbar {
     padding: 20px 24px;
   }
+
+  .navLinks button {
+    font-size: 0.7rem;
+    padding: 8px 16px;
+  }
 }

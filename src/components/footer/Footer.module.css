@@ -134,6 +134,24 @@
     grid-template-columns: 1fr;
     padding: 40px 24px 32px;
     gap: 36px;
+    text-align: center;
+  }
+
+  .tagline {
+    text-align: center;
+  }
+
+  .navLabel {
+    text-align: center;
+  }
+
+  .navLink {
+    width: 100%;
+    text-align: center;
+  }
+
+  .socials {
+    justify-content: center;
   }
 
   .bottom {
