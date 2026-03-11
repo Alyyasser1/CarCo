@@ -1,0 +1,27 @@
+/* src/index.css  ← already imported in main.tsx */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@300&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black: #080808;
+  --white: #f5f3ef;
+  --red: #c0392b;
+  --red-dim: #8b1a13;
+  --border: rgba(255, 255, 255, 0.08);
+  --font-display: "Bebas Neue", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+  --font-mono: "DM Mono", monospace;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--black);
+}

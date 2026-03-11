@@ -1,0 +1,32 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroBg {
+  position: absolute;
+  inset: 0;
+  background-image: url("https://i.pinimg.com/1200x/10/6f/e0/106fe07cadd1b430e936a248dec2f43c.jpg");
+  background-size: cover;
+  background-position: center 40%;
+  z-index: 0;
+}
+
+.heroBg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(8, 8, 8, 0.72) 0%,
+      transparent 35%,
+      transparent 55%,
+      rgba(8, 8, 8, 0.95) 100%
+    ),
+    linear-gradient(to right, rgba(8, 8, 8, 0.6) 0%, transparent 60%);
+}
