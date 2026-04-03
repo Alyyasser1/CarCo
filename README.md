@@ -4,7 +4,7 @@ An AI-powered automotive web app that helps users find their perfect car and dia
 
 ## Live Demo
 
-🔗 [car-co-tawny.vercel.app](https://car-co-tawny.vercel.app)
+🔗 [car-co-.vercel.app](https://car-co-project.vercel.app/)
 
 ## Tech Stack
 
